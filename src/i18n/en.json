@@ -1,0 +1,114 @@
+{
+  "schoolName": "Sarva Hiteshi Sikha Niketan Junior High School",
+
+  "home": "Home",
+  "about": "About",
+  "academics": "Academics",
+  "admissions": "Admissions",
+  "contact": "Contact",
+
+  "applyNow": "Apply Now",
+
+  "heroTagline": "Shaping Young Minds for a Brighter Future",
+  "heroDescription": "We provide quality education with discipline, values, and modern learning to nurture confident and responsible students.",
+  "exploreAcademics": "Our Facilities",
+
+  "whyChooseUs": "Why Choose Us?",
+  "point1": "Experienced & caring faculty",
+  "point2": "Modern classrooms & laboratories",
+  "point3": "Balanced focus on academics & values",
+  "point4": "Safe and nurturing environment",
+
+  "statsStudents": "Students",
+  "statsTeachers": "Qualified Teachers",
+  "statsYears": "Years of Excellence",
+  "statsResults": "Board Results",
+
+  "facilitiesTitle": "Our Facilities",
+  "facilitiesSubtitle": "Modern infrastructure to support holistic learning",
+
+ "facility1": "Well Equipped Classrooms",
+  "facility2": "Safe Campus",
+  "facility3": "Sports Playground",
+  "facility4": "Activity & Arts Room",
+  "facility5": "Parking Area",
+  "facility6": "Educated Teachers",
+  "facility7": "Indoor Games",
+  "facility8": "Comfortable Sitting Areas",
+
+  "aboutTitle": "About Our School",
+  "aboutSubtitle": "Nurturing excellence in education with values and discipline",
+
+  "aboutDesc1": "Sarva Hiteshi Sikha Niketan Junior High School is committed to providing quality education in a safe, caring, and inspiring environment.We focus on academic excellence and character building, and holistic development to prepare students for future challenges",
+  "aboutDesc2": "Sarva Hiteshi Sikha Niketan Junior High School is a co-educational institution committed to providing quality education in a safe, disciplined, and nurturing environment. Our school focuses on academic excellence, character building, and overall personality development of students. With experienced faculty, modern infrastructure, and a learner-centric approach, we aim to prepare students to face future challenges with confidence, integrity, and strong moral values.",
+
+  "missionTitle": "Our Mission",
+  "missionDesc": "We strive to create a learning environment that encourages curiosity, creativity, discipline, and lifelong learning..",
+
+  "visionTitle": "Our Vision",
+  "visionDesc": "We envision nurturing confident, ethical, and innovative individuals who contribute positively to society..",
+
+   "admissionTitle": "Admission Process",
+  "admissionSubtitle": "Simple and transparent steps to enroll your child",
+
+  "step1Title": "Enquiry",
+  "step1Desc": "Contact the school or submit an admission enquiry form.",
+
+  "step2Title": "Application",
+  "step2Desc": "Fill out the admission form with required documents.",
+
+  "step3Title": "Interaction",
+  "step3Desc": "Student and parent interaction or assessment (if applicable).",
+
+  "step4Title": "Confirmation",
+  "step4Desc": "Admission confirmation after successful verification.",
+
+  "noticeTitle": "Notice Board",
+  "noticeSubtitle": "Latest updates and announcements",
+
+  "noticeNew": "New",
+  "noticeImportant": "Important",
+  "viewAllNotices": "View All Notices",
+
+  "galleryTitle": "School Gallery",
+  "gallerySubtitle": "Moments that reflect learning, growth, and joy",
+
+  "contactTitle": "Contact Us",
+  "contactSubtitle": "We are here to help you. Get in touch with us anytime.",
+
+  "contactAddressLabel": "Address",
+  "contactAddress": "Sarva Hiteshi Sikha Niketan Junior High School, Niwar Khas, Moradabad, Uttar Pradesh",
+
+  "contactPhoneLabel": "Phone",
+  "contactPhone": "+91 7906221094",
+
+  "contactEmailLabel": "Email",
+  "contactEmail": "sarvahiteshi.edu@gmail.com",
+
+  "formName": "Your Name",
+  "formEmail": "Email Address",
+  "formPhone": "Phone Number",
+  "formMessage": "Your Message",
+  "formSubmit": "Send Message",
+
+  "alumniTitle": "Our Proud Alumni",
+  "alumniSubtitle": "Our students, our pride – inspiring success stories",
+
+  "alumniRole1": "Software Engineer",
+  "alumniRole2": "Doctor",
+  "alumniRole3": "Chartered Accountant",
+  "alumniRole4": "Entrepreneur",
+
+  "footerAbout": "Sarva Hiteshi Sikha Niketan Junior High School is dedicated to academic excellence, discipline, and holistic development of students, nurturing responsible, confident, and value-driven individuals.",
+
+  "footerQuickLinks": "Quick Links",
+  "footerContact": "Contact",
+
+  "footerHome": "Home",
+  "footerAboutLink": "About Us",
+  "footerAdmissions": "Admissions",
+  "footerGallery": "Gallery",
+  "footerContactLink": "Contact Us",
+
+  "footerRights": "All rights reserved."
+}
