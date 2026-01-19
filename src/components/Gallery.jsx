@@ -80,7 +80,7 @@ export default function Gallery() {
                     {img.title}
                   </h3>
                   <p className="text-sm text-gray-200 mt-1">
-                    Sunrise Public School
+                    Sarva Hiteshi Sikha Niketan
                   </p>
                 </div>
               </div>
