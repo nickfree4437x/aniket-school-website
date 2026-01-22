@@ -31,27 +31,22 @@ export default function Footer() {
     { 
       name: t.footerHome, 
       id: "home", 
-      icon: <Home size={16} /> 
     },
     { 
       name: t.footerAboutLink, 
       id: "about", 
-      icon: <Info size={16} /> 
     },
     { 
       name: t.footerAdmissions, 
-      id: "admissions", 
-      icon: <Users size={16} /> 
+      id: "admissions",  
     },
     { 
       name: t.footerGallery, 
-      id: "gallery", 
-      icon: <Images size={16} /> 
+      id: "gallery",  
     },
     { 
       name: t.footerContactLink, 
       id: "contact", 
-      icon: <Contact size={16} /> 
     },
   ];
 
@@ -93,7 +88,7 @@ export default function Footer() {
                 <li key={i}>
                   <button
                     onClick={() => handleScroll(link.id)}
-                    className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors 
+                    className="flex items-center gap-2 hover:underline text-gray-300 hover:text-white transition-colors 
                     w-full text-left py-1 group"
                   >
                     <span className="text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -142,7 +137,7 @@ export default function Footer() {
                 </span>
                 <a 
                   href="mailto:info@sunriseschool.edu"
-                  className="group-hover:text-white transition-colors hover:underline"
+                  className="group-hover:text-yellow transition-colors hover:underline"
                 >
                   sarvahiteshi.edu@gmail.com
                 </a>

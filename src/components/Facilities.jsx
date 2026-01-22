@@ -49,7 +49,7 @@ export default function Facilities() {
   ];
 
   return (
-    <section id="facilities" className="py-20 bg-gradient-to-b from-blue-50 to-white">
+    <section id="facilities" className="py-20 bg-gradient-to-b from-blue-50 to-white -mt-16">
       <div className="max-w-6xl mx-auto px-6">
         
         <div className="text-center mb-16">

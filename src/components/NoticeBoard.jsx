@@ -5,7 +5,7 @@ export default function NoticeBoard() {
   const { t } = useLanguage();
 
   return (
-    <section id="notices" className="py-16 bg-gradient-to-b from-gray-50 to-white">
+    <section id="notices" className="py-16 bg-gradient-to-b from-gray-50 to-white -mt-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header with Coming Soon Message */}

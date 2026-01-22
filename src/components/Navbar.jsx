@@ -55,7 +55,7 @@ export default function Navbar() {
 
   return (
     <>
-      {/* 🔹 TOP INFO BAR - ORIGINAL AS IT WAS */}
+      {/* 🔹 TOP INFO BAR - Language toggle hidden on mobile */}
       <div
         className={`w-full bg-gradient-to-r from-primary to-blue-800 text-white
         transition-all duration-500 overflow-hidden
@@ -67,17 +67,22 @@ export default function Navbar() {
               <span className="flex items-center gap-1">
                 <Phone size={12} /> +91 7906221094
               </span>
-              <span className="flex items-center gap-1">
-                <Mail size={12} /> sarvahiteshi.edu@gmail.com
-              </span>
+              <a
+                href="mailto:sarvahiteshi.edu@gmail.com?subject=Admission Enquiry&body=Hello School Team,"
+                className="flex items-center gap-1 hover:underline hover:text-yellow-300 transition"
+              >
+                <Mail size={12} />
+                sarvahiteshi.edu@gmail.com
+              </a>
               <span className="hidden sm:flex items-center gap-1">
                 <MapPin size={12} /> Niwar Khas, Moradabad
               </span>
             </div>
 
+            {/* Desktop only language toggle */}
             <button
               onClick={() => setLang(lang === "en" ? "hi" : "en")}
-              className="flex items-center gap-1 px-3 py-1.5 rounded-full
+              className="hidden md:flex items-center gap-1 px-3 py-1.5 rounded-full
               bg-white/15 hover:bg-white/25 transition"
             >
               <Globe size={12} />
@@ -99,7 +104,6 @@ export default function Navbar() {
           <div className="flex items-center justify-between gap-3">
             {/* LEFT SIDE: Logo + Language Toggle (mobile) */}
             <div className="flex items-center gap-3 min-w-0">
-
               {/* LOGO + NAME */}
               <div
                 onClick={() => handleScroll("home")}
@@ -115,23 +119,13 @@ export default function Navbar() {
                   <p className="font-extrabold text-sm sm:text-base lg:text-lg truncate bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
                     {lang === "hi"
                       ? t.schoolName
-                      : "Sarva Hiteshi Sikha Niketan"}
+                      : "Sarva Hiteshi Siksha Niketan"}
                   </p>
                   <p className="text-[10px] sm:text-xs text-gray-500 truncate">
                     Junior High School
                   </p>
                 </div>
               </div>
-              {/* Language Toggle Button - Mobile Only */}
-              {/* <button
-                onClick={() => setLang(lang === "en" ? "hi" : "en")}
-                className="lg:hidden flex items-center gap-1 px-2 py-1.5 rounded-full
-                bg-gradient-to-r from-primary/10 to-blue-600/10 text-primary
-                hover:bg-primary/20 transition text-sm font-medium"
-              >
-                <Globe size={14} />
-                {lang === "en" ? "हिंदी" : "English"}
-              </button> */}
             </div>
 
             {/* DESKTOP MENU */}
@@ -202,6 +196,19 @@ export default function Navbar() {
             >
               {t.applyNow}
             </button>
+            
+            {/* Language toggle in mobile menu as well */}
+            <div className="pt-2 border-t mt-2">
+              <button
+                onClick={() => setLang(lang === "en" ? "hi" : "en")}
+                className="w-full flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg
+                bg-gradient-to-r from-primary/10 to-blue-600/10 text-primary
+                hover:bg-primary/20 transition font-medium"
+              >
+                <Globe size={16} />
+                {lang === "en" ? "Switch to हिंदी" : "Switch to English"}
+              </button>
+            </div>
           </div>
         )}
       </nav>

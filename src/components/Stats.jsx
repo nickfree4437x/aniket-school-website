@@ -12,7 +12,7 @@ export default function Stats() {
     },
     {
       icon: <GraduationCap size={36} />,
-      value: "10+",
+      value: "15+",
       label: t.statsTeachers,
     },
     {

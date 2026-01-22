@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 // 👉 apni 2–3 images yahan rakho
 import hero1 from "../assets/hero1.jpg";
 import hero2 from "../assets/hero2.jpeg";
-import hero3 from "../assets/hero3.jpeg";
+import hero3 from "../assets/hero3.jpg";
 
 export default function Hero() {
   const { t, lang } = useLanguage();
@@ -46,7 +46,7 @@ export default function Hero() {
     {
       text: "बच्चों का समग्र विकास के लिए मोरादाबाद का सर्वश्रेष्ठ स्कूल। मेरे बच्चे का आत्मविश्वास कई गुना बढ़ गया है।",
       name: "श्री शर्मा",
-      relation: "कक्षा 10 के अभिभावक"
+      relation: "कक्षा 7 के अभिभावक"
     },
     {
       text: "को-करिकुलर एक्टिविटीज और शैक्षणिक संतुलन बेहतरीन है। बच्चा स्कूल जाने के लिए हमेशा उत्साहित रहता है।",
@@ -62,7 +62,7 @@ export default function Hero() {
     {
       text: "Best school in Moradabad for holistic development. My child's confidence has grown tremendously.",
       name: "Mr. Sharma",
-      relation: "Parent of Class 10"
+      relation: "Parent of Class 7"
     },
     {
       text: "Co-curricular activities and academic balance are excellent. My child is always excited to go to school.",
@@ -162,7 +162,7 @@ export default function Hero() {
           {/* School Info */}
           <div className="mb-2">
             <div className="text-2xl md:text-5xl font-extrabold mb-1">
-              {lang === "hi" ? "सर्व हितेषि शिक्षा निकेतन" : "Sarva Hiteshi Sikha Niketan"}
+              {lang === "hi" ? "सर्व हितेषि शिक्षा निकेतन" : "Sarva Hiteshi Siksha Niketan"}
             </div>
             <div className="text-lg md:text-xl font-semibold text-yellow-300 mb-1">
               {lang === "hi" ? "जूनियर हाई स्कूल" : "Junior High School"}
@@ -173,7 +173,7 @@ export default function Hero() {
           </div>
 
           {/* ANIMATED TYPING TEXT */}
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mt-4 mb-4">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mt-20 mb-4">
             <TypeAnimation
               sequence={lang === "hi" ? [
                 'युवा दिमागों का निर्माण',
@@ -206,13 +206,13 @@ export default function Hero() {
               <span className="text-[1rem]">UP Board</span>
             </div>
             <div className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-lg flex items-center gap-2 hover:bg-white/30 transition">
-              <span className="text-[1rem]">ISO 9001:2015</span>
+              <span className="text-[1rem]">Safe Campus</span>
             </div>
             <div className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-lg flex items-center gap-2 hover:bg-white/30 transition">
-              <span className="text-[1rem]">{lang === "hi" ? "डिजिटल कक्षाएं" : "Digital Classes"}</span>
+              <span className="text-[1rem]">Goverment Approved</span>
             </div>
             <div className="bg-white/20 backdrop-blur-sm px-4 py-2 rounded-lg flex items-center gap-2 hover:bg-white/30 transition">
-              <span className="text-[1rem]">{lang === "hi" ? "स्मार्ट लैब्स" : "Smart Labs"}</span>
+              <span className="text-[1rem]">25+ Years</span>
             </div>
           </div>
 
@@ -378,7 +378,7 @@ export default function Hero() {
         </button>
         
         <button 
-          onClick={() => window.open("tel:+919876543210")}
+          onClick={() => window.open("tel:+91 7906221094")}
           className="flex flex-col items-center gap-1"
         >
           <div className="bg-green-100 p-2 rounded-full">
