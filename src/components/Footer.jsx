@@ -69,7 +69,7 @@ export default function Footer() {
                 className="w-14 h-14 object-contain rounded-lg drop-shadow-md"
               />
               <h3 className="text-white text-xl font-extrabold leading-tight">
-                Sarva Hiteshi Siskha Niketan Junior High School
+                Sarva Hiteshi Siksha Niketan Junior High School
               </h3>
             </div>
 
