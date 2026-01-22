@@ -88,12 +88,6 @@ export default function Gallery() {
               <div className="absolute inset-0 bg-black/40" />
 
               <div className="absolute bottom-6 left-6 right-6">
-                <h3 className="text-white text-lg font-semibold">
-                  {img.title}
-                </h3>
-                <p className="text-sm text-gray-200">
-                  Sunrise Public School
-                </p>
                 {/* Text */}
                 <div className="absolute bottom-6 left-6 right-6">
                   <h3 className="text-white text-lg font-semibold">
