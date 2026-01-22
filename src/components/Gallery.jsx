@@ -94,6 +94,15 @@ export default function Gallery() {
                 <p className="text-sm text-gray-200">
                   Sunrise Public School
                 </p>
+                {/* Text */}
+                <div className="absolute bottom-6 left-6 right-6">
+                  <h3 className="text-white text-lg font-semibold">
+                    {img.title}
+                  </h3>
+                  <p className="text-sm text-gray-200 mt-1">
+                    Sarva Hiteshi Sikha Niketan
+                  </p>
+                </div>
               </div>
             </div>
           ))}
