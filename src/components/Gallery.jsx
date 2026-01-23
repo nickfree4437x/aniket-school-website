@@ -3,10 +3,10 @@ import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { useLanguage } from "../context/LanguageContext";
 
 // 👉 Gallery Images
-import g1 from "../assets/gallery/g1.jpg";
 import g2 from "../assets/gallery/g2.jpg";
-import g3 from "../assets/gallery/g3.jpg";
 import g4 from "../assets/gallery/g4.jpg";
+import g1 from "../assets/gallery/g1.jpg";
+import g3 from "../assets/gallery/g3.jpg";
 import g5 from "../assets/gallery/g5.jpg";
 import g6 from "../assets/gallery/g6.jpg";
 import g7 from "../assets/gallery/g7.jpg";
@@ -88,19 +88,13 @@ export default function Gallery() {
               <div className="absolute inset-0 bg-black/40" />
 
               <div className="absolute bottom-6 left-6 right-6">
-                <h3 className="text-white text-lg font-semibold">
-                  {img.title}
-                </h3>
-                <p className="text-sm text-gray-200">
-                  Sunrise Public School
-                </p>
                 {/* Text */}
-                <div className="absolute bottom-6 left-6 right-6">
-                  <h3 className="text-white text-lg font-semibold">
+                <div className="absolute bottom-6 left-6 right-6 mt-8 ">
+                  <h3 className="text-white text-lg font-semibold mt-8">
                     {img.title}
                   </h3>
                   <p className="text-sm text-gray-200 mt-1">
-                    Sarva Hiteshi Sikha Niketan
+                    Sarva Hiteshi Siksha Niketan
                   </p>
                 </div>
               </div>

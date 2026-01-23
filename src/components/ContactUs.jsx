@@ -50,7 +50,7 @@ export default function ContactUs() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-14 items-start">
+        <div className="grid md:grid-cols-2 gap-14 items-start -mt-10">
 
           {/* LEFT: Info + Map */}
           <div className="space-y-8">

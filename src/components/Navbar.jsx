@@ -121,7 +121,7 @@ export default function Navbar() {
                       ? t.schoolName
                       : "Sarva Hiteshi Siksha Niketan"}
                   </p>
-                  <p className="text-[10px] sm:text-xs text-gray-500 truncate">
+                  <p className="text-[12px] sm:text-md text-gray-500 truncate">
                     Junior High School
                   </p>
                 </div>

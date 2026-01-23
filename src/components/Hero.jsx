@@ -173,7 +173,7 @@ export default function Hero() {
           </div>
 
           {/* ANIMATED TYPING TEXT */}
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mt-20 mb-4">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-yellow-400 leading-tight mt-20 mb-4">
             <TypeAnimation
               sequence={lang === "hi" ? [
                 'युवा दिमागों का निर्माण',
